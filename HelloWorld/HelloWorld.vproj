@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project ToolsVersion="3.1">
+  <PropertyGroup>
+    <ProjectGuid>fced2aed-d8d6-4d24-8856-adb1de6d5432</ProjectGuid>
+    <ProjectCode>HelloWorld</ProjectCode>
+    <ProjectName>HelloWorld</ProjectName>
+    <ProjectDesc>Toone V3 Development Platform - 版本 3.1.0.0</ProjectDesc>
+    <ProjectVersion>3.4.2.0</ProjectVersion>
+    <ProjectCreateTime>2016-03-11 23:20:15</ProjectCreateTime>
+  </PropertyGroup>
+  <ItemGroup />
+  <Components>
+    <Component code="h1" name="h1" path="h1\h1.vcmp" />
+  </Components>
+</Project>

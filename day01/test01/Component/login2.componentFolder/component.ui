@@ -1,0 +1,26 @@
+﻿<form type="1002" code="form3" IsLocked="False">
+  <propertys>
+    <property name="Width"><![CDATA[960]]></property>
+    <property name="Height"><![CDATA[450]]></property>
+    <property name="HeightSet"><![CDATA[StaticHeight]]></property>
+    <property name="LayoutType"><![CDATA[None]]></property>
+    <property name="TableName"><![CDATA[]]></property>
+    <property name="FormLoadAction"><![CDATA[form3_FormLoadAction]]></property>
+    <property name="FormCloseAction"><![CDATA[]]></property>
+    <property name="BackColor"><![CDATA[]]></property>
+    <property name="Padding"><![CDATA[0, 0, 0, 0]]></property>
+    <property name="Name"><![CDATA[login2]]></property>
+  </propertys>
+  <controls>
+    <JGPanel Code="JGPanel1" Height="373" Left="265" PercentHeight="82.9%" PercentWidth="38.3%" TabIndex="6" Top="43" Width="368">
+      <JGTextBox Code="JGTextBox3" ColumnName="#EF(userinfo.sex)#" LabelText="性别" Left="77" PercentHeight="7%" PercentWidth="63.9%" TabIndex="0" TableName="#E(userinfo)#" Top="152" />
+      <JGButton Code="JGButton1" LabelText="注册" Left="168" OnClick="#M(form3.JGButton1_OnClick)#" PercentHeight="7%" PercentWidth="14.1%" TabIndex="5" Top="311" />
+      <JGTextBox Code="JGTextBox1" ColumnName="#EF(userinfo.nickname)#" LabelText="昵称" Left="77" PercentHeight="7%" PercentWidth="63.9%" TabIndex="0" TableName="#E(userinfo)#" Top="50" />
+      <JGTextBox Code="JGTextBox5" ColumnName="#EF(userinfo.birthday)#" LabelText="生日" Left="77" PercentHeight="7%" PercentWidth="63.9%" TabIndex="0" TableName="#E(userinfo)#" Top="203" />
+      <JGTextBox Code="JGTextBox2" ColumnName="#EF(userinfo.passwd)#" LabelText="密码" Left="77" PercentHeight="7%" PercentWidth="63.9%" TabIndex="0" TableName="#E(userinfo)#" Top="101" />
+      <JGTextBox Code="JGTextBox4" ColumnName="#EF(userinfo.address)#" LabelText="地址" Left="77" PercentHeight="7%" PercentWidth="63.9%" TabIndex="0" TableName="#E(userinfo)#" Top="254" />
+    </JGPanel>
+  </controls>
+  <outputs />
+  <inputs />
+</form>

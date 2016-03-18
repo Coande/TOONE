@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Created: 2016/3/18 10:23:11-->
+<Methods>
+  <Method Code="form3_FormLoadAction" Type="Client" InterfaceType="Local" RestrictType="Private">
+    <MethodChain><![CDATA[
+  <evaluateRule code="BRCode1" />
+]]></MethodChain>
+    <RuleInstances>
+      <RuleInstance ruleCode="DataBaseDataToInterfaceEntity" ruleName="从数据库获取数据到界面实体" instanceCode="BRCode1" instanceName="从数据库获取数据到界面实体" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"isAsyn":false,"itemsConfig":[{"Istype":"Table","dsWhere":null,"entityType":"window","entityName":"a002","itemqueryparam":null,"items":[{"destName":"a002.id","sourceName":"a002.id","type":"entityField"},{"destName":"a002.no1","sourceName":"a002.no1","type":"entityField"},{"destName":"a002.name","sourceName":"a002.name","type":"entityField"},{"destName":"a002.author","sourceName":"a002.author","type":"entityField"},{"destName":"a002.press","sourceName":"a002.press","type":"entityField"},{"destName":"a002.date1","sourceName":"a002.date1","type":"entityField"},{"destName":"a002.price","sourceName":"a002.price","type":"entityField"},{"destName":"a002.count1","sourceName":"a002.count1","type":"entityField"}],"orderBy":null,"sourceName":"a002","dataLoad":""}],"treeStruct":null}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtEntityRelation><EntityType>window</EntityType><EntityName>#E(a002)#</EntityName><SourceType>Table</SourceType><SourceName>#T(a002)#</SourceName><dsWhere><![CDATA[<NewDataSet />]]]]><![CDATA[></dsWhere><dsSort><![CDATA[<dsSort />]]]]><![CDATA[></dsSort><ID>3a6f6b90656e46fcb52512d05031cbf6</ID><DataLoad /></dtEntityRelation><dtEntityColumnRelation><MasterID>3a6f6b90656e46fcb52512d05031cbf6</MasterID><DestName>#EF(a002.id)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.id)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>3a6f6b90656e46fcb52512d05031cbf6</MasterID><DestName>#EF(a002.no1)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.no1)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>3a6f6b90656e46fcb52512d05031cbf6</MasterID><DestName>#EF(a002.name)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.name)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>3a6f6b90656e46fcb52512d05031cbf6</MasterID><DestName>#EF(a002.author)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.author)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>3a6f6b90656e46fcb52512d05031cbf6</MasterID><DestName>#EF(a002.press)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.press)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>3a6f6b90656e46fcb52512d05031cbf6</MasterID><DestName>#EF(a002.date1)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.date1)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>3a6f6b90656e46fcb52512d05031cbf6</MasterID><DestName>#EF(a002.price)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.price)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>3a6f6b90656e46fcb52512d05031cbf6</MasterID><DestName>#EF(a002.count1)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.count1)#</SourceName></dtEntityColumnRelation><dtIsAsyn><isAsyn>False</isAsyn></dtIsAsyn></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+    </RuleInstances>
+  </Method>
+  <Method Code="JGButton1_OnClick" Type="Client" InterfaceType="Local" RestrictType="Private">
+    <MethodChain><![CDATA[
+  <evaluateRule code="BRCode1" />
+]]></MethodChain>
+    <RuleInstances>
+      <RuleInstance ruleCode="AddTableRecord" ruleName="新增界面实体记录" instanceCode="BRCode1" instanceName="新增界面实体记录" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"AddLocation":"3","Mappings":null,"TableType":"window","TableName":"a002","NumCount":"1"}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtMaster><RangCount>1</RangCount><Location>3</Location><EntityType>window</EntityType><EntityName>#E(a002)#</EntityName></dtMaster></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+    </RuleInstances>
+  </Method>
+  <Method Code="JGButton3_OnClick" Type="Client" InterfaceType="Local" RestrictType="Private">
+    <MethodChain><![CDATA[
+  <evaluateRule code="BRCode1" />
+]]></MethodChain>
+    <RuleInstances>
+      <RuleInstance ruleCode="UpdateRecord" ruleName="保存界面实体到数据库" instanceCode="BRCode1" instanceName="保存界面实体到数据库" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"dataSourceMap":[{"dataMap":[{"colName":"a002.id","colValue":"a002.id","valueType":"entityField"},{"colName":"a002.no1","colValue":"a002.no1","valueType":"entityField"},{"colName":"a002.name","colValue":"a002.name","valueType":"entityField"},{"colName":"a002.author","colValue":"a002.author","valueType":"entityField"},{"colName":"a002.press","colValue":"a002.press","valueType":"entityField"},{"colName":"a002.date1","colValue":"a002.date1","valueType":"entityField"},{"colName":"a002.price","colValue":"a002.price","valueType":"entityField"},{"colName":"a002.count1","colValue":"a002.count1","valueType":"entityField"}],"dataSource":"a002","dataSourceType":"window","destTab":"a002","isSaveAll":false}],"treeStruct":null}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtMaster><ID>2034230056a441b182b3604bc503ff21</ID><SourceName>#E(a002)#</SourceName><SourceType>window</SourceType><IsSaveAll>False</IsSaveAll><TableName>#T(a002)#</TableName></dtMaster><dtDetails><PID>2034230056a441b182b3604bc503ff21</PID><SourceField>#TF(a002.id)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.id)#</Value></dtDetails><dtDetails><PID>2034230056a441b182b3604bc503ff21</PID><SourceField>#TF(a002.no1)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.no1)#</Value></dtDetails><dtDetails><PID>2034230056a441b182b3604bc503ff21</PID><SourceField>#TF(a002.name)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.name)#</Value></dtDetails><dtDetails><PID>2034230056a441b182b3604bc503ff21</PID><SourceField>#TF(a002.author)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.author)#</Value></dtDetails><dtDetails><PID>2034230056a441b182b3604bc503ff21</PID><SourceField>#TF(a002.press)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.press)#</Value></dtDetails><dtDetails><PID>2034230056a441b182b3604bc503ff21</PID><SourceField>#TF(a002.date1)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.date1)#</Value></dtDetails><dtDetails><PID>2034230056a441b182b3604bc503ff21</PID><SourceField>#TF(a002.price)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.price)#</Value></dtDetails><dtDetails><PID>2034230056a441b182b3604bc503ff21</PID><SourceField>#TF(a002.count1)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.count1)#</Value></dtDetails></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+    </RuleInstances>
+  </Method>
+  <Method Code="JGButton2_OnClick" Type="Client" InterfaceType="Local" RestrictType="Private">
+    <MethodChain><![CDATA[
+  <evaluateRule code="BRCode1" />
+  <evaluateRule code="BRCode2" />
+]]></MethodChain>
+    <RuleInstances>
+      <RuleInstance ruleCode="DeleteListSelectRow" ruleName="删除界面实体记录" instanceCode="BRCode1" instanceName="删除界面实体记录" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"Condition":"","deleteType":"0","DisplayColumn":"","ID":"","TableName":"a002","treeStruct":null}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtMaster><Condition /><DeleteType>0</DeleteType><TableName>#E(a002)#</TableName></dtMaster></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+      <RuleInstance ruleCode="UpdateRecord" ruleName="保存界面实体到数据库" instanceCode="BRCode2" instanceName="保存界面实体到数据库" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"dataSourceMap":[{"dataMap":[{"colName":"a002.id","colValue":"a002.id","valueType":"entityField"},{"colName":"a002.no1","colValue":"a002.no1","valueType":"entityField"},{"colName":"a002.name","colValue":"a002.name","valueType":"entityField"},{"colName":"a002.author","colValue":"a002.author","valueType":"entityField"},{"colName":"a002.press","colValue":"a002.press","valueType":"entityField"},{"colName":"a002.date1","colValue":"a002.date1","valueType":"entityField"},{"colName":"a002.price","colValue":"a002.price","valueType":"entityField"},{"colName":"a002.count1","colValue":"a002.count1","valueType":"entityField"}],"dataSource":"a002","dataSourceType":"window","destTab":"a002","isSaveAll":false}],"treeStruct":null}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtMaster><ID>e2c540cb3ff34f9694557232a7f2161f</ID><SourceName>#E(a002)#</SourceName><SourceType>window</SourceType><IsSaveAll>False</IsSaveAll><TableName>#T(a002)#</TableName></dtMaster><dtDetails><PID>e2c540cb3ff34f9694557232a7f2161f</PID><SourceField>#TF(a002.id)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.id)#</Value></dtDetails><dtDetails><PID>e2c540cb3ff34f9694557232a7f2161f</PID><SourceField>#TF(a002.no1)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.no1)#</Value></dtDetails><dtDetails><PID>e2c540cb3ff34f9694557232a7f2161f</PID><SourceField>#TF(a002.name)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.name)#</Value></dtDetails><dtDetails><PID>e2c540cb3ff34f9694557232a7f2161f</PID><SourceField>#TF(a002.author)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.author)#</Value></dtDetails><dtDetails><PID>e2c540cb3ff34f9694557232a7f2161f</PID><SourceField>#TF(a002.press)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.press)#</Value></dtDetails><dtDetails><PID>e2c540cb3ff34f9694557232a7f2161f</PID><SourceField>#TF(a002.date1)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.date1)#</Value></dtDetails><dtDetails><PID>e2c540cb3ff34f9694557232a7f2161f</PID><SourceField>#TF(a002.price)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.price)#</Value></dtDetails><dtDetails><PID>e2c540cb3ff34f9694557232a7f2161f</PID><SourceField>#TF(a002.count1)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a002.count1)#</Value></dtDetails></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+    </RuleInstances>
+  </Method>
+  <Method Code="JGButton4_OnClick" Type="Client" InterfaceType="Local" RestrictType="Private">
+    <MethodChain><![CDATA[
+  <evaluateRule code="BRCode1" />
+]]></MethodChain>
+    <RuleInstances>
+      <RuleInstance ruleCode="DataBaseDataToInterfaceEntity" ruleName="从数据库获取数据到界面实体" instanceCode="BRCode1" instanceName="从数据库获取数据到界面实体" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"isAsyn":false,"itemsConfig":[{"Istype":"Table","dsWhere":[{"columnType":"1","field":"a002.author","fieldType":"char","leftBracket":"(","logicOperation":null,"operation":"like","rightBracket":")","value":"CC.JGTextBox2.Value","valueType":"9"},{"columnType":"1","field":"a002.name","fieldType":"char","leftBracket":"(","logicOperation":"and","operation":"like","rightBracket":")","value":"CC.JGTextBox1.Value","valueType":"9"}],"entityType":"window","entityName":"a002","itemqueryparam":null,"items":[{"destName":"a002.id","sourceName":"a002.id","type":"entityField"},{"destName":"a002.no1","sourceName":"a002.no1","type":"entityField"},{"destName":"a002.name","sourceName":"a002.name","type":"entityField"},{"destName":"a002.author","sourceName":"a002.author","type":"entityField"},{"destName":"a002.press","sourceName":"a002.press","type":"entityField"},{"destName":"a002.date1","sourceName":"a002.date1","type":"entityField"},{"destName":"a002.price","sourceName":"a002.price","type":"entityField"},{"destName":"a002.count1","sourceName":"a002.count1","type":"entityField"}],"orderBy":null,"sourceName":"a002","dataLoad":""}],"treeStruct":null}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtEntityRelation><EntityType>window</EntityType><EntityName>#E(a002)#</EntityName><SourceType>Table</SourceType><SourceName>#T(a002)#</SourceName><dsWhere><![CDATA[<NewDataSet><dtWhere><columnType>1</columnType><field>#TF(a002.author)#</field><fieldType>char</fieldType><leftBracket>(</leftBracket><logicOperation /><operation>like</operation><rightBracket>)</rightBracket><value>CC.#WC(JGTextBox2)#.Value</value><valueType>9</valueType></dtWhere><dtWhere><columnType>1</columnType><field>#TF(a002.name)#</field><fieldType>char</fieldType><leftBracket>(</leftBracket><logicOperation>and</logicOperation><operation>like</operation><rightBracket>)</rightBracket><value>CC.#WC(JGTextBox1)#.Value</value><valueType>9</valueType></dtWhere></NewDataSet>]]]]><![CDATA[></dsWhere><dsSort><![CDATA[<dsSort />]]]]><![CDATA[></dsSort><ID>098a39ea2c1441aea83862451749fad9</ID><DataLoad /></dtEntityRelation><dtEntityColumnRelation><MasterID>098a39ea2c1441aea83862451749fad9</MasterID><DestName>#EF(a002.id)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.id)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>098a39ea2c1441aea83862451749fad9</MasterID><DestName>#EF(a002.no1)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.no1)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>098a39ea2c1441aea83862451749fad9</MasterID><DestName>#EF(a002.name)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.name)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>098a39ea2c1441aea83862451749fad9</MasterID><DestName>#EF(a002.author)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.author)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>098a39ea2c1441aea83862451749fad9</MasterID><DestName>#EF(a002.press)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.press)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>098a39ea2c1441aea83862451749fad9</MasterID><DestName>#EF(a002.date1)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.date1)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>098a39ea2c1441aea83862451749fad9</MasterID><DestName>#EF(a002.price)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.price)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>098a39ea2c1441aea83862451749fad9</MasterID><DestName>#EF(a002.count1)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a002.count1)#</SourceName></dtEntityColumnRelation><dtIsAsyn><isAsyn>False</isAsyn></dtIsAsyn></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+    </RuleInstances>
+  </Method>
+</Methods>

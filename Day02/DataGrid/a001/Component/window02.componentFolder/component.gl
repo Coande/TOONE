@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Created: 2016/3/18 0:29:24-->
+<Methods>
+  <Method Remark="" Name="JGButton1_单击事件" FileName="JGButton1_OnClick.method" Code="JGButton1_OnClick" MethodDir="ControlMethod" />
+  <Method Remark="" Name="form2_窗体加载事件" FileName="form2_FormLoadAction.method" Code="form2_FormLoadAction" MethodDir="WindowMethod" />
+</Methods>

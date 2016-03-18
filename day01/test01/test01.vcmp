@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Component code="test01" name="HelloWorld" version="1.0.0.Alpha" type="Business" category="">
+  <Provider><![CDATA[Coande]]></Provider>
+  <Description><![CDATA[]]></Description>
+  <References />
+</Component>

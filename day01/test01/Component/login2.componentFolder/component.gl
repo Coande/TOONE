@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Created: 2016/3/17 10:28:17-->
+<Methods>
+  <Method Remark="" Name="JGButton1_单击事件" FileName="JGButton1_OnClick.method" Code="JGButton1_OnClick" MethodDir="ControlMethod" />
+</Methods>

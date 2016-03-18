@@ -1,0 +1,55 @@
+﻿<Table id="Table17795294" code="a002" name="bookInventory">
+  <Remark><![CDATA[]]></Remark>
+  <Creator><![CDATA[]]></Creator>
+  <CreationTime><![CDATA[2016-03-18 10:28:01]]></CreationTime>
+  <Modifier><![CDATA[Coande]]></Modifier>
+  <ModificationTime><![CDATA[2016-03-18 10:49:18]]></ModificationTime>
+  <Columns>
+    <Column id="Column_id" code="id" name="" domain="" dataType="char" length="64" precision="" isPrimaryKey="true" isMandratory="true">
+      <DefaultValue><![CDATA[]]></DefaultValue>
+      <Remark><![CDATA[]]></Remark>
+    </Column>
+    <Column id="Column_1" code="no1" name="编号" domain="" dataType="char" length="255" precision="" isPrimaryKey="false" isMandratory="false">
+      <DefaultValue><![CDATA[]]></DefaultValue>
+      <Remark><![CDATA[]]></Remark>
+    </Column>
+    <Column id="Column_2" code="name" name="书名" domain="" dataType="char" length="255" precision="" isPrimaryKey="false" isMandratory="false">
+      <DefaultValue><![CDATA[]]></DefaultValue>
+      <Remark><![CDATA[]]></Remark>
+    </Column>
+    <Column id="Column_3" code="author" name="作者" domain="" dataType="char" length="255" precision="" isPrimaryKey="false" isMandratory="false">
+      <DefaultValue><![CDATA[]]></DefaultValue>
+      <Remark><![CDATA[]]></Remark>
+    </Column>
+    <Column id="Column_4" code="press" name="出版社" domain="" dataType="char" length="255" precision="" isPrimaryKey="false" isMandratory="false">
+      <DefaultValue><![CDATA[]]></DefaultValue>
+      <Remark><![CDATA[]]></Remark>
+    </Column>
+    <Column id="Column_5" code="date1" name="出版日期" domain="" dataType="date" length="" precision="" isPrimaryKey="false" isMandratory="false">
+      <DefaultValue><![CDATA[]]></DefaultValue>
+      <Remark><![CDATA[]]></Remark>
+    </Column>
+    <Column id="Column_6" code="price" name="单价" domain="" dataType="number" length="50" precision="4" isPrimaryKey="false" isMandratory="false">
+      <DefaultValue><![CDATA[]]></DefaultValue>
+      <Remark><![CDATA[]]></Remark>
+    </Column>
+    <Column id="Column_7" code="count1" name="库存" domain="" dataType="integer" length="50" precision="" isPrimaryKey="false" isMandratory="false">
+      <DefaultValue><![CDATA[]]></DefaultValue>
+      <Remark><![CDATA[]]></Remark>
+    </Column>
+  </Columns>
+  <Indexes />
+  <TreeTableStruct treeType="0" parentColumn="" innerCodeColumn="" orderNoColumn="" leafColumn="" />
+  <Data isInitialData="true" isReplaceDataById="true">
+    <RowData>
+      <ColumnData code="id"><![CDATA[222222222222222]]></ColumnData>
+      <ColumnData code="no1"><![CDATA[22222222222222B]]></ColumnData>
+      <ColumnData code="name"><![CDATA[如何装X]]></ColumnData>
+      <ColumnData code="author"><![CDATA[张三]]></ColumnData>
+      <ColumnData code="press"><![CDATA[默认出版社]]></ColumnData>
+      <ColumnData code="date1"><![CDATA[2016-03-18]]></ColumnData>
+      <ColumnData code="price"><![CDATA[22]]></ColumnData>
+      <ColumnData code="count1"><![CDATA[33]]></ColumnData>
+    </RowData>
+  </Data>
+</Table>

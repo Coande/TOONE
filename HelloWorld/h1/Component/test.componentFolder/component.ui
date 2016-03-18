@@ -1,0 +1,19 @@
+﻿<form type="1002" code="form1" IsLocked="False">
+  <propertys>
+    <property name="Width"><![CDATA[960]]></property>
+    <property name="Height"><![CDATA[450]]></property>
+    <property name="HeightSet"><![CDATA[StaticHeight]]></property>
+    <property name="LayoutType"><![CDATA[None]]></property>
+    <property name="TableName"><![CDATA[]]></property>
+    <property name="FormLoadAction"><![CDATA[]]></property>
+    <property name="FormCloseAction"><![CDATA[]]></property>
+    <property name="BackColor"><![CDATA[]]></property>
+    <property name="Padding"><![CDATA[0, 0, 0, 0]]></property>
+    <property name="Name"><![CDATA[test]]></property>
+  </propertys>
+  <controls>
+    <JGLabel Code="JGLabel1" Height="54" LabelText="Hello World" Left="443" OnClick="#M(form1.JGLabel1_OnClick)#" PercentHeight="12%" PercentWidth="25.5%" TabIndex="0" Top="164" Width="245" />
+  </controls>
+  <outputs />
+  <inputs />
+</form>

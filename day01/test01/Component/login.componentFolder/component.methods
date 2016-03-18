@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Created: 2016/3/17 9:36:33-->
+<Methods>
+  <Method Code="JGLabel1_OnClick" Type="Client" InterfaceType="Local" RestrictType="Private" />
+  <Method Code="JGLabel2_OnClick" Type="Client" InterfaceType="Local" RestrictType="Private" />
+</Methods>

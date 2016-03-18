@@ -1,0 +1,36 @@
+﻿<form type="1002" code="form3" IsLocked="False">
+  <propertys>
+    <property name="Width"><![CDATA[960]]></property>
+    <property name="Height"><![CDATA[450]]></property>
+    <property name="HeightSet"><![CDATA[StaticHeight]]></property>
+    <property name="LayoutType"><![CDATA[None]]></property>
+    <property name="TableName"><![CDATA[]]></property>
+    <property name="FormLoadAction"><![CDATA[form3_FormLoadAction]]></property>
+    <property name="FormCloseAction"><![CDATA[]]></property>
+    <property name="BackColor"><![CDATA[]]></property>
+    <property name="Padding"><![CDATA[0, 0, 0, 0]]></property>
+    <property name="Name"><![CDATA[window03]]></property>
+  </propertys>
+  <controls>
+    <JGLabel Code="JGLabel1" LabelText="请输入书名" Left="317" PercentHeight="5.3%" PercentWidth="7.1%" TabIndex="9" Top="68" />
+    <JGDataGrid Code="JGDataGrid1" FetchMode="paged" Height="246" LabelText="列表" Left="77" PercentHeight="54.7%" PercentWidth="84%" TabIndex="9" TableName="#E(a002)#" Top="109" Width="806">
+      <JGTextBoxColumn Code="no11" ColumnName="#EF(a002.no1)#" LabelText="编号" TableName="#E(a002)#" />
+      <JGTextBoxColumn Code="name1" ColumnName="#EF(a002.name)#" LabelText="书名" TableName="#E(a002)#" />
+      <JGTextBoxColumn Code="author1" ColumnName="#EF(a002.author)#" LabelText="作者" TableName="#E(a002)#" />
+      <JGComboBoxColumn Code="press1" ColumnName="#EF(a002.press)#" DropDownSource="{&quot;DataSourceSetting&quot;:{&quot;DataConfig&quot;:{&quot;DefaultSaveColumn&quot;:null,&quot;DefaultShowColumn&quot;:null,&quot;SourceType&quot;:null,&quot;SourceID&quot;:null,&quot;SourceName&quot;:null,&quot;MapTable&quot;:null,&quot;SaveColumn&quot;:null,&quot;ShowColumn&quot;:null,&quot;SortField&quot;:null,&quot;SortType&quot;:null,&quot;MaxRecCount&quot;:0,&quot;ConstData&quot;:[{&quot;id&quot;:&quot;0&quot;,&quot;text&quot;:&quot;请选择&quot;,&quot;selected&quot;:&quot;True&quot;},{&quot;id&quot;:&quot;1&quot;,&quot;text&quot;:&quot;出版社1&quot;,&quot;selected&quot;:&quot;False&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;text&quot;:&quot;出版社2&quot;,&quot;selected&quot;:&quot;False&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;text&quot;:&quot;出版社3&quot;,&quot;selected&quot;:&quot;False&quot;},{&quot;id&quot;:&quot;4&quot;,&quot;text&quot;:&quot;出版社4&quot;,&quot;selected&quot;:&quot;False&quot;}],&quot;SqlQueryConstData&quot;:null,&quot;EntityConstData&quot;:null,&quot;Condition&quot;:null,&quot;QueryParam&quot;:null},&quot;DataSourceType&quot;:&quot;CustomConst&quot;}}" IDColumnName="#EF(a002.press)#" LabelText="出版社" TableName="#E(a002)#" />
+      <JGDateTimePickerColumn Code="date11" ColumnName="#EF(a002.date1)#" LabelText="出版日期" TableName="#E(a002)#" />
+      <JGFloatBoxColumn Code="price1" ColumnName="#EF(a002.price)#" LabelText="单价" TableName="#E(a002)#" />
+      <JGIntegerBoxColumn Code="count11" ColumnName="#EF(a002.count1)#" LabelText="库存" TableName="#E(a002)#" />
+    </JGDataGrid>
+    <JGTextBox Code="JGTextBox2" LabelText="作者" LabelVisible="False" Left="597" PercentHeight="5.8%" PercentWidth="13.1%" TabIndex="7" Top="67" Width="126" />
+    <JGTextBox Code="JGTextBox1" LabelText="书名" LabelVisible="False" Left="391" PercentHeight="5.8%" PercentWidth="13.1%" TabIndex="7" Top="67" Width="126" />
+    <JGLabel Code="JGLabel2" LabelText="请输入作者" Left="523" PercentHeight="5.3%" PercentWidth="7.1%" TabIndex="6" Top="68" />
+    <JGButton Code="JGButton5" LabelText="关闭" Left="831" PercentHeight="5.8%" PercentWidth="5.4%" TabIndex="4" Top="67" />
+    <JGButton Code="JGButton4" LabelText="查询" Left="773" OnClick="#M(form3.JGButton4_OnClick)#" PercentHeight="5.8%" PercentWidth="5.4%" TabIndex="3" Top="67" />
+    <JGButton Code="JGButton3" LabelText="保存" Left="217" OnClick="#M(form3.JGButton3_OnClick)#" PercentHeight="5.8%" PercentWidth="5.4%" TabIndex="2" Top="67" />
+    <JGButton Code="JGButton2" LabelText="删除" Left="147" OnClick="#M(form3.JGButton2_OnClick)#" PercentHeight="5.8%" PercentWidth="5.4%" TabIndex="1" Top="67" />
+    <JGButton Code="JGButton1" LabelText="新增" Left="77" OnClick="#M(form3.JGButton1_OnClick)#" PercentHeight="5.8%" PercentWidth="5.4%" TabIndex="0" Top="67" />
+  </controls>
+  <outputs />
+  <inputs />
+</form>

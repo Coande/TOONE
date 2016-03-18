@@ -1,0 +1,25 @@
+﻿<form type="1002" code="form2" IsLocked="False">
+  <propertys>
+    <property name="Width"><![CDATA[960]]></property>
+    <property name="Height"><![CDATA[450]]></property>
+    <property name="HeightSet"><![CDATA[StaticHeight]]></property>
+    <property name="LayoutType"><![CDATA[None]]></property>
+    <property name="TableName"><![CDATA[]]></property>
+    <property name="FormLoadAction"><![CDATA[form2_FormLoadAction]]></property>
+    <property name="FormCloseAction"><![CDATA[]]></property>
+    <property name="BackColor"><![CDATA[]]></property>
+    <property name="Padding"><![CDATA[0, 0, 0, 0]]></property>
+    <property name="Name"><![CDATA[window02]]></property>
+  </propertys>
+  <controls>
+    <JGButton Code="JGButton1" LabelText="新增" Left="59" OnClick="#M(form2.JGButton1_OnClick)#" PercentHeight="5.8%" PercentWidth="5.4%" TabIndex="1" Top="37" />
+    <JGDataGrid Code="JGDataGrid1" Height="190" LabelText="列表" Left="151" PercentHeight="42.2%" PercentWidth="54.6%" TabIndex="0" TableName="#E(a001)#" Top="98" Width="524">
+      <JGTextBoxColumn Code="nickname1" ColumnName="#EF(a001.nickname)#" LabelText="昵称" TableName="#E(a001)#" />
+      <JGTextBoxColumn Code="sex1" ColumnName="#EF(a001.sex)#" LabelText="性别" TableName="#E(a001)#" />
+      <JGTextBoxColumn Code="birthday1" ColumnName="#EF(a001.birthday)#" LabelText="生日" TableName="#E(a001)#" />
+      <JGTextBoxColumn Code="address1" ColumnName="#EF(a001.address)#" LabelText="地址" TableName="#E(a001)#" />
+    </JGDataGrid>
+  </controls>
+  <outputs />
+  <inputs />
+</form>

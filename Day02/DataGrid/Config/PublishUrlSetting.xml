@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfPublishUrlInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PublishUrlInfo>
+    <ID>b1af03d5-f3b8-4e16-8a22-a9ac7e82f257</ID>
+    <Name>TestService</Name>
+    <Url />
+    <ProductName>DataGrid</ProductName>
+    <UrlDeployType>Normal</UrlDeployType>
+    <IsDefault>true</IsDefault>
+    <IsLocal>true</IsLocal>
+  </PublishUrlInfo>
+  <PublishUrlInfo>
+    <ID>24f1ad5e-1a59-4b8e-9178-0db8cdc9fb33</ID>
+    <Name>VStore</Name>
+    <Url>http://www.toone.com.cn:8808/</Url>
+    <ProductName>DataGrid</ProductName>
+    <UrlDeployType>ToDesignPart</UrlDeployType>
+    <IsDefault>true</IsDefault>
+    <IsLocal>false</IsLocal>
+  </PublishUrlInfo>
+</ArrayOfPublishUrlInfo>

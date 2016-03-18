@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Created: 2016/3/18 10:18:02-->
+<Methods>
+  <Method Remark="" Name="form3_窗体加载事件" FileName="form3_FormLoadAction.method" Code="form3_FormLoadAction" MethodDir="WindowMethod" />
+  <Method Remark="" Name="新增" FileName="JGButton1_OnClick.method" Code="JGButton1_OnClick" MethodDir="ControlMethod" />
+  <Method Remark="" Name="保存" FileName="JGButton3_OnClick.method" Code="JGButton3_OnClick" MethodDir="ControlMethod" />
+  <Method Remark="" Name="删除" FileName="JGButton2_OnClick.method" Code="JGButton2_OnClick" MethodDir="ControlMethod" />
+  <Method Remark="" Name="查询" FileName="JGButton4_OnClick.method" Code="JGButton4_OnClick" MethodDir="ControlMethod" />
+</Methods>

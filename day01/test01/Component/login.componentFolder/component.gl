@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Created: 2016/3/17 9:35:08-->
+<Methods>
+  <Method Remark="" Name="JGLabel1_单击事件" FileName="JGLabel1_OnClick.method" Code="JGLabel1_OnClick" MethodDir="ControlMethod" />
+  <Method Remark="" Name="JGLabel2_单击事件" FileName="JGLabel2_OnClick.method" Code="JGLabel2_OnClick" MethodDir="ControlMethod" />
+</Methods>

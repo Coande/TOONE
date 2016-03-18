@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Created: 2016/3/17 20:33:04-->
+<Methods>
+  <Method Code="JGButton1_OnClick" Type="Client" InterfaceType="Local" RestrictType="Private">
+    <MethodChain><![CDATA[
+  <evaluateRule code="BRCode1" />
+  <evaluateRule code="BRCode2" />
+  <evaluateRule code="BRCode3" />
+]]></MethodChain>
+    <RuleInstances>
+      <RuleInstance ruleCode="UpdateRecord" ruleName="保存界面实体到数据库" instanceCode="BRCode1" instanceName="保存界面实体到数据库" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"dataSourceMap":[{"dataMap":[{"colName":"a001.id","colValue":"a001.id","valueType":"entityField"},{"colName":"a001.nickname","colValue":"a001.nickname","valueType":"entityField"},{"colName":"a001.pwd","colValue":"a001.pwd","valueType":"entityField"},{"colName":"a001.sex","colValue":"a001.sex","valueType":"entityField"},{"colName":"a001.birthday","colValue":"a001.birthday","valueType":"entityField"},{"colName":"a001.address","colValue":"a001.address","valueType":"entityField"}],"dataSource":"a001","dataSourceType":"window","destTab":"a001","isSaveAll":false}],"treeStruct":null}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtMaster><ID>de475eeb8d8345d4b4463ced965aca14</ID><SourceName>#E(a001)#</SourceName><SourceType>window</SourceType><IsSaveAll>False</IsSaveAll><TableName>#T(a001)#</TableName></dtMaster><dtDetails><PID>de475eeb8d8345d4b4463ced965aca14</PID><SourceField>#TF(a001.id)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a001.id)#</Value></dtDetails><dtDetails><PID>de475eeb8d8345d4b4463ced965aca14</PID><SourceField>#TF(a001.nickname)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a001.nickname)#</Value></dtDetails><dtDetails><PID>de475eeb8d8345d4b4463ced965aca14</PID><SourceField>#TF(a001.pwd)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a001.pwd)#</Value></dtDetails><dtDetails><PID>de475eeb8d8345d4b4463ced965aca14</PID><SourceField>#TF(a001.sex)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a001.sex)#</Value></dtDetails><dtDetails><PID>de475eeb8d8345d4b4463ced965aca14</PID><SourceField>#TF(a001.birthday)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a001.birthday)#</Value></dtDetails><dtDetails><PID>de475eeb8d8345d4b4463ced965aca14</PID><SourceField>#TF(a001.address)#</SourceField><DataFrom>entityField</DataFrom><Value>#EF(a001.address)#</Value></dtDetails></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+      <RuleInstance ruleCode="ShowMessage" ruleName="显示设置的提示信息" instanceCode="BRCode2" instanceName="显示设置的提示信息" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"showType":"0","simpleChinesePrompt":{"msgnote":"\"恭喜，注册成功！\"","type":"1"}}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtMaster><MsgType>0</MsgType><SimpleChinese>"恭喜，注册成功！"</SimpleChinese><SimpleChinesetype>1</SimpleChinesetype></dtMaster></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+      <RuleInstance ruleCode="AddTableRecord" ruleName="新增界面实体记录" instanceCode="BRCode3" instanceName="新增界面实体记录" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"AddLocation":"3","Mappings":null,"TableType":"window","TableName":"a001","NumCount":"1"}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtMaster><RangCount>1</RangCount><Location>3</Location><EntityType>window</EntityType><EntityName>#E(a001)#</EntityName></dtMaster></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+    </RuleInstances>
+  </Method>
+</Methods>

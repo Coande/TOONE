@@ -1,0 +1,1168 @@
+<Deploy>
+  <LastDeployTime>2016-03-17 11:12:44</LastDeployTime>
+  <LastDeployData><![CDATA[<?xml version="1.0"?>
+<component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" code="test01" name="HelloWorld" desc="">
+  <windows>
+    <window type="1" code="form1" name="Hello World" desc="">
+      <propertys>
+        <property name="Width" code="Width">960</property>
+        <property name="Height" code="Height">450</property>
+        <property name="HeightSet" code="HeightSet">StaticHeight</property>
+        <property name="LayoutType" code="LayoutType">None</property>
+        <property name="BackColor" code="BackColor" />
+        <property name="Padding" code="Padding">0, 0, 0, 0</property>
+        <property name="Name" code="Name">Hello World</property>
+        <property name="Code" code="Code">form1</property>
+      </propertys>
+      <controls>
+        <control code="JGLabel1" name="Hello World!" type="JGLabel" desc="Toone-1450149894000">
+          <propertys>
+            <property name="背景色" code="BackColor">255, 0, 0</property>
+            <property name="控件编码" code="Code">JGLabel1</property>
+            <property name="泊靠" code="Dock">Fill</property>
+            <property name="字体" code="FontStyle">{"Family":"微软雅黑","Size":"56","Strikeout":false,"Bold":false,"Italic":false,"Underline":false}</property>
+            <property name="前景色" code="ForeColor" />
+            <property name="高度" code="Height">450</property>
+            <property name="标题" code="LabelText">Hello World!</property>
+            <property name="左边距" code="Left">0</property>
+            <property name="百分比高度" code="PercentHeight">100%</property>
+            <property name="百分比宽度" code="PercentWidth">100%</property>
+            <property name="宽度固定" code="StaticLayoutSize">True</property>
+            <property name="备注" code="TagData" />
+            <property name="标签对齐方式" code="TextAlign">Center</property>
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">0</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">960</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnClick" name="单击事件">
+              <evaluateRule code="test01.form1.JGLabel1_OnClick" />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers />
+            </dataBinding>
+          </dataBindings>
+        </control>
+      </controls>
+      <events>
+        <event code="FormLoadAction" name="窗体加载事件">
+          <evaluateRule />
+        </event>
+        <event code="FormCloseAction" name="窗体关闭事件">
+          <evaluateRule />
+        </event>
+      </events>
+      <logics>
+        <logic type="client">
+          <ruleSets>
+            <ruleSet code="JGLabel1_OnClick" name="JGLabel1_单击事件">
+              <ruleRoute xsi:type="xsd:string">&lt;Root /&gt;</ruleRoute>
+              <ruleInstances />
+              <routeContext />
+              <inputs />
+              <outputs />
+            </ruleSet>
+          </ruleSets>
+          <ruleInstances>
+            <ruleInstance ruleCode="ExecuteRuleSet" ruleName="执行方法" instanceCode="test01.form1.JGLabel1_OnClick" instanceName="执行方法" isNeedLog="false" isEnabled="true" transactionType="none">
+              <condition />
+              <ruleConfig>{"filter": null,"invokeTarget": {"sourceType": "client-ruleSet","invokeType": "local","componentCode": "test01","windowCode": "form1","ruleSetCode": "JGLabel1_OnClick"},"invokeParams": null,"returnMapping": null}</ruleConfig>
+            </ruleInstance>
+          </ruleInstances>
+        </logic>
+      </logics>
+      <dataBindings>
+        <dataBinding>
+          <dataSource />
+        </dataBinding>
+      </dataBindings>
+      <windowVariants>
+        <variables />
+        <dataTypes />
+      </windowVariants>
+      <windowOutputs>
+        <variables />
+        <dataTypes />
+      </windowOutputs>
+      <expressions />
+    </window>
+    <window type="1" code="form2" name="login" desc="">
+      <propertys>
+        <property name="Width" code="Width">960</property>
+        <property name="Height" code="Height">450</property>
+        <property name="HeightSet" code="HeightSet">StaticHeight</property>
+        <property name="LayoutType" code="LayoutType">None</property>
+        <property name="BackColor" code="BackColor" />
+        <property name="Padding" code="Padding">0, 0, 0, 0</property>
+        <property name="Name" code="Name">login</property>
+        <property name="Code" code="Code">form2</property>
+      </propertys>
+      <controls>
+        <control code="JGRadioGroup1" name="单选组" type="JGRadioGroup" desc="Toone-1450149897000">
+          <propertys>
+            <property name="控件编码" code="Code">JGRadioGroup1</property>
+            <property name="显示格式" code="DisplayFormat">{"numType":"0","displayFormat":"","Index":"0"}</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="数据来源" code="DropDownSource" />
+            <property name="使能" code="Enabled">True</property>
+            <property name="高度" code="Height">26</property>
+            <property name="必填" code="IsMust">false</property>
+            <property name="标签背景色" code="LabelBackColor" />
+            <property name="标签字体" code="LabelFontStyle" />
+            <property name="标签前景色" code="LabelForeColor" />
+            <property name="标题" code="LabelText">单选组</property>
+            <property name="标签对齐方式" code="LabelTextAlign">Left</property>
+            <property name="显示标题" code="LabelVisible">False</property>
+            <property name="标签宽度" code="LabelWidth">94</property>
+            <property name="左边距" code="Left">332</property>
+            <property name="百分比高度" code="PercentHeight">5.8%</property>
+            <property name="百分比宽度" code="PercentWidth">24.5%</property>
+            <property name="只读" code="ReadOnly">false</property>
+            <property name="界面顺序号" code="TabIndex">9</property>
+            <property name="备注" code="TagData" />
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">241</property>
+            <property name="值背景色" code="ValueBackColor" />
+            <property name="值字体" code="ValueFontStyle" />
+            <property name="值前景色" code="ValueForeColor" />
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">235</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnValueChanged" name="值改变事件">
+              <evaluateRule />
+            </event>
+            <event code="OnValueLoaded" name="值加载事件">
+              <evaluateRule />
+            </event>
+            <event code="OnLabelClick" name="单击标题">
+              <evaluateRule />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers>
+                <dataMember name="标识字段" code="IDColumnName" />
+                <dataMember name="显示字段" code="ColumnName" />
+              </dataMembers>
+            </dataBinding>
+          </dataBindings>
+        </control>
+        <control code="JGTextBox5" name="文本" type="JGTextBox" desc="Toone-1453876684000">
+          <propertys>
+            <property name="控件编码" code="Code">JGTextBox5</property>
+            <property name="默认值" code="DefaultValue" />
+            <property name="显示格式" code="DisplayFormat">{"numType":"0","displayFormat":"","Index":"0"}</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="使能" code="Enabled">True</property>
+            <property name="高度" code="Height">26</property>
+            <property name="必填" code="IsMust">false</property>
+            <property name="标签背景色" code="LabelBackColor" />
+            <property name="标签字体" code="LabelFontStyle" />
+            <property name="标签前景色" code="LabelForeColor" />
+            <property name="标题" code="LabelText">文本</property>
+            <property name="标签对齐方式" code="LabelTextAlign">Left</property>
+            <property name="显示标题" code="LabelVisible">False</property>
+            <property name="标签宽度" code="LabelWidth">94</property>
+            <property name="左边距" code="Left">332</property>
+            <property name="百分比高度" code="PercentHeight">5.8%</property>
+            <property name="百分比宽度" code="PercentWidth">24.5%</property>
+            <property name="只读" code="ReadOnly">false</property>
+            <property name="界面顺序号" code="TabIndex">5</property>
+            <property name="备注" code="TagData" />
+            <property name="文本长度" code="TextLength">255</property>
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">346</property>
+            <property name="值背景色" code="ValueBackColor" />
+            <property name="值字体" code="ValueFontStyle" />
+            <property name="值前景色" code="ValueForeColor" />
+            <property name="值格式规范" code="ValueFormat" />
+            <property name="值对齐方式" code="ValueTextAlign">Left</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">235</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnValueChanged" name="值改变事件">
+              <evaluateRule />
+            </event>
+            <event code="OnValueLoaded" name="值加载事件">
+              <evaluateRule />
+            </event>
+            <event code="OnLabelClick" name="单击标题">
+              <evaluateRule />
+            </event>
+            <event code="OnKeyDown" name="键盘按下">
+              <evaluateRule />
+            </event>
+            <event code="OnEnter" name="获取焦点">
+              <evaluateRule />
+            </event>
+            <event code="OnLeave" name="失去焦点">
+              <evaluateRule />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers>
+                <dataMember name="字段名称" code="ColumnName" />
+              </dataMembers>
+            </dataBinding>
+          </dataBindings>
+        </control>
+        <control code="JGTextBox4" name="文本" type="JGTextBox" desc="Toone-1453876684000">
+          <propertys>
+            <property name="控件编码" code="Code">JGTextBox4</property>
+            <property name="默认值" code="DefaultValue" />
+            <property name="显示格式" code="DisplayFormat">{"numType":"0","displayFormat":"","Index":"0"}</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="使能" code="Enabled">True</property>
+            <property name="高度" code="Height">26</property>
+            <property name="必填" code="IsMust">false</property>
+            <property name="标签背景色" code="LabelBackColor" />
+            <property name="标签字体" code="LabelFontStyle" />
+            <property name="标签前景色" code="LabelForeColor" />
+            <property name="标题" code="LabelText">文本</property>
+            <property name="标签对齐方式" code="LabelTextAlign">Left</property>
+            <property name="显示标题" code="LabelVisible">False</property>
+            <property name="标签宽度" code="LabelWidth">94</property>
+            <property name="左边距" code="Left">332</property>
+            <property name="百分比高度" code="PercentHeight">5.8%</property>
+            <property name="百分比宽度" code="PercentWidth">24.5%</property>
+            <property name="只读" code="ReadOnly">false</property>
+            <property name="界面顺序号" code="TabIndex">5</property>
+            <property name="备注" code="TagData" />
+            <property name="文本长度" code="TextLength">255</property>
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">184</property>
+            <property name="值背景色" code="ValueBackColor" />
+            <property name="值字体" code="ValueFontStyle" />
+            <property name="值前景色" code="ValueForeColor" />
+            <property name="值格式规范" code="ValueFormat" />
+            <property name="值对齐方式" code="ValueTextAlign">Left</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">235</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnValueChanged" name="值改变事件">
+              <evaluateRule />
+            </event>
+            <event code="OnValueLoaded" name="值加载事件">
+              <evaluateRule />
+            </event>
+            <event code="OnLabelClick" name="单击标题">
+              <evaluateRule />
+            </event>
+            <event code="OnKeyDown" name="键盘按下">
+              <evaluateRule />
+            </event>
+            <event code="OnEnter" name="获取焦点">
+              <evaluateRule />
+            </event>
+            <event code="OnLeave" name="失去焦点">
+              <evaluateRule />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers>
+                <dataMember name="字段名称" code="ColumnName" />
+              </dataMembers>
+            </dataBinding>
+          </dataBindings>
+        </control>
+        <control code="JGTextBox3" name="文本" type="JGTextBox" desc="Toone-1453876684000">
+          <propertys>
+            <property name="控件编码" code="Code">JGTextBox3</property>
+            <property name="默认值" code="DefaultValue" />
+            <property name="显示格式" code="DisplayFormat">{"numType":"0","displayFormat":"","Index":"0"}</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="使能" code="Enabled">True</property>
+            <property name="高度" code="Height">26</property>
+            <property name="必填" code="IsMust">false</property>
+            <property name="标签背景色" code="LabelBackColor" />
+            <property name="标签字体" code="LabelFontStyle" />
+            <property name="标签前景色" code="LabelForeColor" />
+            <property name="标题" code="LabelText">文本</property>
+            <property name="标签对齐方式" code="LabelTextAlign">Left</property>
+            <property name="显示标题" code="LabelVisible">False</property>
+            <property name="标签宽度" code="LabelWidth">94</property>
+            <property name="左边距" code="Left">332</property>
+            <property name="百分比高度" code="PercentHeight">5.8%</property>
+            <property name="百分比宽度" code="PercentWidth">24.5%</property>
+            <property name="只读" code="ReadOnly">false</property>
+            <property name="界面顺序号" code="TabIndex">5</property>
+            <property name="备注" code="TagData" />
+            <property name="文本长度" code="TextLength">255</property>
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">295</property>
+            <property name="值背景色" code="ValueBackColor" />
+            <property name="值字体" code="ValueFontStyle" />
+            <property name="值前景色" code="ValueForeColor" />
+            <property name="值格式规范" code="ValueFormat" />
+            <property name="值对齐方式" code="ValueTextAlign">Left</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">235</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnValueChanged" name="值改变事件">
+              <evaluateRule />
+            </event>
+            <event code="OnValueLoaded" name="值加载事件">
+              <evaluateRule />
+            </event>
+            <event code="OnLabelClick" name="单击标题">
+              <evaluateRule />
+            </event>
+            <event code="OnKeyDown" name="键盘按下">
+              <evaluateRule />
+            </event>
+            <event code="OnEnter" name="获取焦点">
+              <evaluateRule />
+            </event>
+            <event code="OnLeave" name="失去焦点">
+              <evaluateRule />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers>
+                <dataMember name="字段名称" code="ColumnName" />
+              </dataMembers>
+            </dataBinding>
+          </dataBindings>
+        </control>
+        <control code="JGTextBox1" name="文本" type="JGTextBox" desc="Toone-1453876684000">
+          <propertys>
+            <property name="控件编码" code="Code">JGTextBox1</property>
+            <property name="默认值" code="DefaultValue" />
+            <property name="显示格式" code="DisplayFormat">{"numType":"0","displayFormat":"","Index":"0"}</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="使能" code="Enabled">True</property>
+            <property name="高度" code="Height">26</property>
+            <property name="必填" code="IsMust">false</property>
+            <property name="标签背景色" code="LabelBackColor" />
+            <property name="标签字体" code="LabelFontStyle" />
+            <property name="标签前景色" code="LabelForeColor" />
+            <property name="标题" code="LabelText">文本</property>
+            <property name="标签对齐方式" code="LabelTextAlign">Left</property>
+            <property name="显示标题" code="LabelVisible">False</property>
+            <property name="标签宽度" code="LabelWidth">94</property>
+            <property name="左边距" code="Left">332</property>
+            <property name="百分比高度" code="PercentHeight">5.8%</property>
+            <property name="百分比宽度" code="PercentWidth">24.5%</property>
+            <property name="只读" code="ReadOnly">false</property>
+            <property name="界面顺序号" code="TabIndex">5</property>
+            <property name="备注" code="TagData" />
+            <property name="文本长度" code="TextLength">255</property>
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">129</property>
+            <property name="值背景色" code="ValueBackColor" />
+            <property name="值字体" code="ValueFontStyle" />
+            <property name="值前景色" code="ValueForeColor" />
+            <property name="值格式规范" code="ValueFormat" />
+            <property name="值对齐方式" code="ValueTextAlign">Left</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">235</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnValueChanged" name="值改变事件">
+              <evaluateRule />
+            </event>
+            <event code="OnValueLoaded" name="值加载事件">
+              <evaluateRule />
+            </event>
+            <event code="OnLabelClick" name="单击标题">
+              <evaluateRule />
+            </event>
+            <event code="OnKeyDown" name="键盘按下">
+              <evaluateRule />
+            </event>
+            <event code="OnEnter" name="获取焦点">
+              <evaluateRule />
+            </event>
+            <event code="OnLeave" name="失去焦点">
+              <evaluateRule />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers>
+                <dataMember name="字段名称" code="ColumnName" />
+              </dataMembers>
+            </dataBinding>
+          </dataBindings>
+        </control>
+        <control code="JGLabel5" name="所在地" type="JGLabel" desc="Toone-1450149894000">
+          <propertys>
+            <property name="背景色" code="BackColor" />
+            <property name="控件编码" code="Code">JGLabel5</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="字体" code="FontStyle" />
+            <property name="前景色" code="ForeColor" />
+            <property name="高度" code="Height">24</property>
+            <property name="标题" code="LabelText">所在地</property>
+            <property name="左边距" code="Left">270</property>
+            <property name="百分比高度" code="PercentHeight">5.3%</property>
+            <property name="百分比宽度" code="PercentWidth">7.1%</property>
+            <property name="宽度固定" code="StaticLayoutSize">True</property>
+            <property name="备注" code="TagData" />
+            <property name="标签对齐方式" code="TextAlign">Left</property>
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">348</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">68</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnClick" name="单击事件">
+              <evaluateRule />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers />
+            </dataBinding>
+          </dataBindings>
+        </control>
+        <control code="JGLabel4" name="生日" type="JGLabel" desc="Toone-1450149894000">
+          <propertys>
+            <property name="背景色" code="BackColor" />
+            <property name="控件编码" code="Code">JGLabel4</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="字体" code="FontStyle" />
+            <property name="前景色" code="ForeColor" />
+            <property name="高度" code="Height">24</property>
+            <property name="标题" code="LabelText">生日</property>
+            <property name="左边距" code="Left">270</property>
+            <property name="百分比高度" code="PercentHeight">5.3%</property>
+            <property name="百分比宽度" code="PercentWidth">7.1%</property>
+            <property name="宽度固定" code="StaticLayoutSize">True</property>
+            <property name="备注" code="TagData" />
+            <property name="标签对齐方式" code="TextAlign">Left</property>
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">295</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">68</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnClick" name="单击事件">
+              <evaluateRule />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers />
+            </dataBinding>
+          </dataBindings>
+        </control>
+        <control code="JGLabel3" name="性别" type="JGLabel" desc="Toone-1450149894000">
+          <propertys>
+            <property name="背景色" code="BackColor" />
+            <property name="控件编码" code="Code">JGLabel3</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="字体" code="FontStyle" />
+            <property name="前景色" code="ForeColor" />
+            <property name="高度" code="Height">24</property>
+            <property name="标题" code="LabelText">性别</property>
+            <property name="左边距" code="Left">270</property>
+            <property name="百分比高度" code="PercentHeight">5.3%</property>
+            <property name="百分比宽度" code="PercentWidth">7.1%</property>
+            <property name="宽度固定" code="StaticLayoutSize">True</property>
+            <property name="备注" code="TagData" />
+            <property name="标签对齐方式" code="TextAlign">Left</property>
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">241</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">68</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnClick" name="单击事件">
+              <evaluateRule />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers />
+            </dataBinding>
+          </dataBindings>
+        </control>
+        <control code="JGLabel2" name="密码" type="JGLabel" desc="Toone-1450149894000">
+          <propertys>
+            <property name="背景色" code="BackColor" />
+            <property name="控件编码" code="Code">JGLabel2</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="字体" code="FontStyle" />
+            <property name="前景色" code="ForeColor" />
+            <property name="高度" code="Height">24</property>
+            <property name="标题" code="LabelText">密码</property>
+            <property name="左边距" code="Left">270</property>
+            <property name="百分比高度" code="PercentHeight">5.3%</property>
+            <property name="百分比宽度" code="PercentWidth">7.1%</property>
+            <property name="宽度固定" code="StaticLayoutSize">True</property>
+            <property name="备注" code="TagData" />
+            <property name="标签对齐方式" code="TextAlign">Left</property>
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">184</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">68</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnClick" name="单击事件">
+              <evaluateRule code="test01.form2.JGLabel2_OnClick" />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers />
+            </dataBinding>
+          </dataBindings>
+        </control>
+        <control code="JGLabel1" name="昵称" type="JGLabel" desc="Toone-1450149894000">
+          <propertys>
+            <property name="背景色" code="BackColor" />
+            <property name="控件编码" code="Code">JGLabel1</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="字体" code="FontStyle" />
+            <property name="前景色" code="ForeColor" />
+            <property name="高度" code="Height">24</property>
+            <property name="标题" code="LabelText">昵称</property>
+            <property name="左边距" code="Left">270</property>
+            <property name="百分比高度" code="PercentHeight">5.3%</property>
+            <property name="百分比宽度" code="PercentWidth">7.1%</property>
+            <property name="宽度固定" code="StaticLayoutSize">True</property>
+            <property name="备注" code="TagData" />
+            <property name="标签对齐方式" code="TextAlign">Left</property>
+            <property name="浮动提示" code="ToolTip" />
+            <property name="上边距" code="Top">129</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">68</property>
+          </propertys>
+          <controls />
+          <events>
+            <event code="OnClick" name="单击事件">
+              <evaluateRule code="test01.form2.JGLabel1_OnClick" />
+            </event>
+          </events>
+          <dataBindings>
+            <dataBinding>
+              <dataMembers />
+            </dataBinding>
+          </dataBindings>
+        </control>
+      </controls>
+      <events>
+        <event code="FormLoadAction" name="窗体加载事件">
+          <evaluateRule />
+        </event>
+        <event code="FormCloseAction" name="窗体关闭事件">
+          <evaluateRule />
+        </event>
+      </events>
+      <logics>
+        <logic type="client">
+          <ruleSets>
+            <ruleSet code="JGLabel1_OnClick" name="JGLabel1_单击事件">
+              <ruleRoute xsi:type="xsd:string">&lt;Root /&gt;</ruleRoute>
+              <ruleInstances />
+              <routeContext />
+              <inputs />
+              <outputs />
+            </ruleSet>
+          </ruleSets>
+          <ruleInstances>
+            <ruleInstance ruleCode="ExecuteRuleSet" ruleName="执行方法" instanceCode="test01.form2.JGLabel1_OnClick" instanceName="执行方法" isNeedLog="false" isEnabled="true" transactionType="none">
+              <condition />
+              <ruleConfig>{"filter": null,"invokeTarget": {"sourceType": "client-ruleSet","invokeType": "local","componentCode": "test01","windowCode": "form2","ruleSetCode": "JGLabel1_OnClick"},"invokeParams": null,"returnMapping": null}</ruleConfig>
+            </ruleInstance>
+          </ruleInstances>
+        </logic>
+        <logic type="client">
+          <ruleSets>
+            <ruleSet code="JGLabel2_OnClick" name="JGLabel2_单击事件">
+              <ruleRoute xsi:type="xsd:string">&lt;Root /&gt;</ruleRoute>
+              <ruleInstances />
+              <routeContext />
+              <inputs />
+              <outputs />
+            </ruleSet>
+          </ruleSets>
+          <ruleInstances>
+            <ruleInstance ruleCode="ExecuteRuleSet" ruleName="执行方法" instanceCode="test01.form2.JGLabel2_OnClick" instanceName="执行方法" isNeedLog="false" isEnabled="true" transactionType="none">
+              <condition />
+              <ruleConfig>{"filter": null,"invokeTarget": {"sourceType": "client-ruleSet","invokeType": "local","componentCode": "test01","windowCode": "form2","ruleSetCode": "JGLabel2_OnClick"},"invokeParams": null,"returnMapping": null}</ruleConfig>
+            </ruleInstance>
+          </ruleInstances>
+        </logic>
+      </logics>
+      <dataBindings>
+        <dataBinding>
+          <dataSource />
+        </dataBinding>
+      </dataBindings>
+      <windowVariants>
+        <variables />
+        <dataTypes />
+      </windowVariants>
+      <windowOutputs>
+        <variables />
+        <dataTypes />
+      </windowOutputs>
+      <expressions />
+    </window>
+    <window type="1" code="form3" name="login2" desc="">
+      <propertys>
+        <property name="Width" code="Width">960</property>
+        <property name="Height" code="Height">450</property>
+        <property name="HeightSet" code="HeightSet">StaticHeight</property>
+        <property name="LayoutType" code="LayoutType">None</property>
+        <property name="BackColor" code="BackColor" />
+        <property name="Padding" code="Padding">0, 0, 0, 0</property>
+        <property name="Name" code="Name">login2</property>
+        <property name="Code" code="Code">form3</property>
+      </propertys>
+      <controls>
+        <control code="JGPanel1" name="面板" type="JGPanel" desc="Toone-1450149896000">
+          <propertys>
+            <property name="背景色" code="BackColor" />
+            <property name="边框颜色" code="BorderColor" />
+            <property name="边框样式" code="BorderStyle">FixedSingle</property>
+            <property name="边框宽度" code="BorderWidth">1</property>
+            <property name="控件编码" code="Code">JGPanel1</property>
+            <property name="泊靠" code="Dock">None</property>
+            <property name="使能" code="Enabled">True</property>
+            <property name="高度" code="Height">373</property>
+            <property name="图片Code" code="ImageObject" />
+            <property name="背景图片" code="ImageValue" />
+            <property name="是否用于分组" code="IsForGroupBox">false</property>
+            <property name="布局类型" code="LayoutType">None</property>
+            <property name="左边距" code="Left">265</property>
+            <property name="内部间距" code="Padding">0, 0, 0, 0</property>
+            <property name="百分比高度" code="PercentHeight">82.9%</property>
+            <property name="百分比宽度" code="PercentWidth">38.3%</property>
+            <property name="只读" code="ReadOnly">False</property>
+            <property name="宽度固定" code="StaticLayoutSize">True</property>
+            <property name="界面顺序号" code="TabIndex">6</property>
+            <property name="备注" code="TagData" />
+            <property name="上边距" code="Top">43</property>
+            <property name="显示" code="Visible">True</property>
+            <property name="宽度" code="Width">368</property>
+          </propertys>
+          <controls>
+            <control code="JGTextBox3" name="性别" type="JGTextBox" desc="Toone-1453876684000">
+              <propertys>
+                <property name="控件编码" code="Code">JGTextBox3</property>
+                <property name="默认值" code="DefaultValue" />
+                <property name="显示格式" code="DisplayFormat">{"numType":"0","displayFormat":"","Index":"0"}</property>
+                <property name="泊靠" code="Dock">None</property>
+                <property name="使能" code="Enabled">True</property>
+                <property name="高度" code="Height">26</property>
+                <property name="必填" code="IsMust">false</property>
+                <property name="标签背景色" code="LabelBackColor" />
+                <property name="标签字体" code="LabelFontStyle" />
+                <property name="标签前景色" code="LabelForeColor" />
+                <property name="标题" code="LabelText">性别</property>
+                <property name="标签对齐方式" code="LabelTextAlign">Left</property>
+                <property name="显示标题" code="LabelVisible">True</property>
+                <property name="标签宽度" code="LabelWidth">94</property>
+                <property name="左边距" code="Left">77</property>
+                <property name="百分比高度" code="PercentHeight">7%</property>
+                <property name="百分比宽度" code="PercentWidth">63.9%</property>
+                <property name="只读" code="ReadOnly">false</property>
+                <property name="界面顺序号" code="TabIndex">0</property>
+                <property name="备注" code="TagData" />
+                <property name="文本长度" code="TextLength">255</property>
+                <property name="浮动提示" code="ToolTip" />
+                <property name="上边距" code="Top">152</property>
+                <property name="值背景色" code="ValueBackColor" />
+                <property name="值字体" code="ValueFontStyle" />
+                <property name="值前景色" code="ValueForeColor" />
+                <property name="值格式规范" code="ValueFormat" />
+                <property name="值对齐方式" code="ValueTextAlign">Left</property>
+                <property name="显示" code="Visible">True</property>
+                <property name="宽度" code="Width">235</property>
+              </propertys>
+              <controls />
+              <events>
+                <event code="OnValueChanged" name="值改变事件">
+                  <evaluateRule />
+                </event>
+                <event code="OnValueLoaded" name="值加载事件">
+                  <evaluateRule />
+                </event>
+                <event code="OnLabelClick" name="单击标题">
+                  <evaluateRule />
+                </event>
+                <event code="OnKeyDown" name="键盘按下">
+                  <evaluateRule />
+                </event>
+                <event code="OnEnter" name="获取焦点">
+                  <evaluateRule />
+                </event>
+                <event code="OnLeave" name="失去焦点">
+                  <evaluateRule />
+                </event>
+              </events>
+              <dataBindings>
+                <dataBinding>
+                  <dataSource>userinfo</dataSource>
+                  <dataMembers>
+                    <dataMember name="字段名称" code="ColumnName">sex</dataMember>
+                  </dataMembers>
+                </dataBinding>
+              </dataBindings>
+            </control>
+            <control code="JGButton1" name="注册" type="JGButton" desc="Toone-1450149889000">
+              <propertys>
+                <property name="背景色" code="BackColor" />
+                <property name="控件编码" code="Code">JGButton1</property>
+                <property name="泊靠" code="Dock">None</property>
+                <property name="使能" code="Enabled">true</property>
+                <property name="字体" code="FontStyle" />
+                <property name="前景色" code="ForeColor" />
+                <property name="高度" code="Height">26</property>
+                <property name="图片Code" code="ImageObject" />
+                <property name="图标" code="ImageValue" />
+                <property name="标题" code="LabelText">注册</property>
+                <property name="左边距" code="Left">168</property>
+                <property name="百分比高度" code="PercentHeight">7%</property>
+                <property name="百分比宽度" code="PercentWidth">14.1%</property>
+                <property name="提醒文字" code="RemindText" />
+                <property name="宽度固定" code="StaticLayoutSize">True</property>
+                <property name="界面顺序号" code="TabIndex">5</property>
+                <property name="备注" code="TagData" />
+                <property name="浮动提示" code="ToolTip" />
+                <property name="上边距" code="Top">311</property>
+                <property name="显示" code="Visible">True</property>
+                <property name="宽度" code="Width">52</property>
+              </propertys>
+              <controls />
+              <events>
+                <event code="OnClick" name="单击事件">
+                  <evaluateRule code="test01.form3.JGButton1_OnClick" />
+                </event>
+              </events>
+              <dataBindings>
+                <dataBinding>
+                  <dataMembers />
+                </dataBinding>
+              </dataBindings>
+            </control>
+            <control code="JGTextBox1" name="昵称" type="JGTextBox" desc="Toone-1453876684000">
+              <propertys>
+                <property name="控件编码" code="Code">JGTextBox1</property>
+                <property name="默认值" code="DefaultValue" />
+                <property name="显示格式" code="DisplayFormat">{"numType":"0","displayFormat":"","Index":"0"}</property>
+                <property name="泊靠" code="Dock">None</property>
+                <property name="使能" code="Enabled">True</property>
+                <property name="高度" code="Height">26</property>
+                <property name="必填" code="IsMust">false</property>
+                <property name="标签背景色" code="LabelBackColor" />
+                <property name="标签字体" code="LabelFontStyle" />
+                <property name="标签前景色" code="LabelForeColor" />
+                <property name="标题" code="LabelText">昵称</property>
+                <property name="标签对齐方式" code="LabelTextAlign">Left</property>
+                <property name="显示标题" code="LabelVisible">True</property>
+                <property name="标签宽度" code="LabelWidth">94</property>
+                <property name="左边距" code="Left">77</property>
+                <property name="百分比高度" code="PercentHeight">7%</property>
+                <property name="百分比宽度" code="PercentWidth">63.9%</property>
+                <property name="只读" code="ReadOnly">false</property>
+                <property name="界面顺序号" code="TabIndex">0</property>
+                <property name="备注" code="TagData" />
+                <property name="文本长度" code="TextLength">255</property>
+                <property name="浮动提示" code="ToolTip" />
+                <property name="上边距" code="Top">50</property>
+                <property name="值背景色" code="ValueBackColor" />
+                <property name="值字体" code="ValueFontStyle" />
+                <property name="值前景色" code="ValueForeColor" />
+                <property name="值格式规范" code="ValueFormat" />
+                <property name="值对齐方式" code="ValueTextAlign">Left</property>
+                <property name="显示" code="Visible">True</property>
+                <property name="宽度" code="Width">235</property>
+              </propertys>
+              <controls />
+              <events>
+                <event code="OnValueChanged" name="值改变事件">
+                  <evaluateRule />
+                </event>
+                <event code="OnValueLoaded" name="值加载事件">
+                  <evaluateRule />
+                </event>
+                <event code="OnLabelClick" name="单击标题">
+                  <evaluateRule />
+                </event>
+                <event code="OnKeyDown" name="键盘按下">
+                  <evaluateRule />
+                </event>
+                <event code="OnEnter" name="获取焦点">
+                  <evaluateRule />
+                </event>
+                <event code="OnLeave" name="失去焦点">
+                  <evaluateRule />
+                </event>
+              </events>
+              <dataBindings>
+                <dataBinding>
+                  <dataSource>userinfo</dataSource>
+                  <dataMembers>
+                    <dataMember name="字段名称" code="ColumnName">nickname</dataMember>
+                  </dataMembers>
+                </dataBinding>
+              </dataBindings>
+            </control>
+            <control code="JGTextBox5" name="生日" type="JGTextBox" desc="Toone-1453876684000">
+              <propertys>
+                <property name="控件编码" code="Code">JGTextBox5</property>
+                <property name="默认值" code="DefaultValue" />
+                <property name="显示格式" code="DisplayFormat">{"numType":"0","displayFormat":"","Index":"0"}</property>
+                <property name="泊靠" code="Dock">None</property>
+                <property name="使能" code="Enabled">True</property>
+                <property name="高度" code="Height">26</property>
+                <property name="必填" code="IsMust">false</property>
+                <property name="标签背景色" code="LabelBackColor" />
+                <property name="标签字体" code="LabelFontStyle" />
+                <property name="标签前景色" code="LabelForeColor" />
+                <property name="标题" code="LabelText">生日</property>
+                <property name="标签对齐方式" code="LabelTextAlign">Left</property>
+                <property name="显示标题" code="LabelVisible">True</property>
+                <property name="标签宽度" code="LabelWidth">94</property>
+                <property name="左边距" code="Left">77</property>
+                <property name="百分比高度" code="PercentHeight">7%</property>
+                <property name="百分比宽度" code="PercentWidth">63.9%</property>
+                <property name="只读" code="ReadOnly">false</property>
+                <property name="界面顺序号" code="TabIndex">0</property>
+                <property name="备注" code="TagData" />
+                <property name="文本长度" code="TextLength">255</property>
+                <property name="浮动提示" code="ToolTip" />
+                <property name="上边距" code="Top">203</property>
+                <property name="值背景色" code="ValueBackColor" />
+                <property name="值字体" code="ValueFontStyle" />
+                <property name="值前景色" code="ValueForeColor" />
+                <property name="值格式规范" code="ValueFormat" />
+                <property name="值对齐方式" code="ValueTextAlign">Left</property>
+                <property name="显示" code="Visible">True</property>
+                <property name="宽度" code="Width">235</property>
+              </propertys>
+              <controls />
+              <events>
+                <event code="OnValueChanged" name="值改变事件">
+                  <evaluateRule />
+                </event>
+                <event code="OnValueLoaded" name="值加载事件">
+                  <evaluateRule />
+                </event>
+                <event code="OnLabelClick" name="单击标题">
+                  <evaluateRule />
+                </event>
+                <event code="OnKeyDown" name="键盘按下">
+                  <evaluateRule />
+                </event>
+                <event code="OnEnter" name="获取焦点">
+                  <evaluateRule />
+                </event>
+                <event code="OnLeave" name="失去焦点">
+                  <evaluateRule />
+                </event>
+              </events>
+              <dataBindings>
+                <dataBinding>
+                  <dataSource>userinfo</dataSource>
+                  <dataMembers>
+                    <dataMember name="字段名称" code="ColumnName">birthday</dataMember>
+                  </dataMembers>
+                </dataBinding>
+              </dataBindings>
+            </control>
+            <control code="JGTextBox2" name="密码" type="JGTextBox" desc="Toone-1453876684000">
+              <propertys>
+                <property name="控件编码" code="Code">JGTextBox2</property>
+                <property name="默认值" code="DefaultValue" />
+                <property name="显示格式" code="DisplayFormat">{"numType":"0","displayFormat":"","Index":"0"}</property>
+                <property name="泊靠" code="Dock">None</property>
+                <property name="使能" code="Enabled">True</property>
+                <property name="高度" code="Height">26</property>
+                <property name="必填" code="IsMust">false</property>
+                <property name="标签背景色" code="LabelBackColor" />
+                <property name="标签字体" code="LabelFontStyle" />
+                <property name="标签前景色" code="LabelForeColor" />
+                <property name="标题" code="LabelText">密码</property>
+                <property name="标签对齐方式" code="LabelTextAlign">Left</property>
+                <property name="显示标题" code="LabelVisible">True</property>
+                <property name="标签宽度" code="LabelWidth">94</property>
+                <property name="左边距" code="Left">77</property>
+                <property name="百分比高度" code="PercentHeight">7%</property>
+                <property name="百分比宽度" code="PercentWidth">63.9%</property>
+                <property name="只读" code="ReadOnly">false</property>
+                <property name="界面顺序号" code="TabIndex">0</property>
+                <property name="备注" code="TagData" />
+                <property name="文本长度" code="TextLength">255</property>
+                <property name="浮动提示" code="ToolTip" />
+                <property name="上边距" code="Top">101</property>
+                <property name="值背景色" code="ValueBackColor" />
+                <property name="值字体" code="ValueFontStyle" />
+                <property name="值前景色" code="ValueForeColor" />
+                <property name="值格式规范" code="ValueFormat" />
+                <property name="值对齐方式" code="ValueTextAlign">Left</property>
+                <property name="显示" code="Visible">True</property>
+                <property name="宽度" code="Width">235</property>
+              </propertys>
+              <controls />
+              <events>
+                <event code="OnValueChanged" name="值改变事件">
+                  <evaluateRule />
+                </event>
+                <event code="OnValueLoaded" name="值加载事件">
+                  <evaluateRule />
+                </event>
+                <event code="OnLabelClick" name="单击标题">
+                  <evaluateRule />
+                </event>
+                <event code="OnKeyDown" name="键盘按下">
+                  <evaluateRule />
+                </event>
+                <event code="OnEnter" name="获取焦点">
+                  <evaluateRule />
+                </event>
+                <event code="OnLeave" name="失去焦点">
+                  <evaluateRule />
+                </event>
+              </events>
+              <dataBindings>
+                <dataBinding>
+                  <dataSource>userinfo</dataSource>
+                  <dataMembers>
+                    <dataMember name="字段名称" code="ColumnName">passwd</dataMember>
+                  </dataMembers>
+                </dataBinding>
+              </dataBindings>
+            </control>
+            <control code="JGTextBox4" name="地址" type="JGTextBox" desc="Toone-1453876684000">
+              <propertys>
+                <property name="控件编码" code="Code">JGTextBox4</property>
+                <property name="默认值" code="DefaultValue" />
+                <property name="显示格式" code="DisplayFormat">{"numType":"0","displayFormat":"","Index":"0"}</property>
+                <property name="泊靠" code="Dock">None</property>
+                <property name="使能" code="Enabled">True</property>
+                <property name="高度" code="Height">26</property>
+                <property name="必填" code="IsMust">false</property>
+                <property name="标签背景色" code="LabelBackColor" />
+                <property name="标签字体" code="LabelFontStyle" />
+                <property name="标签前景色" code="LabelForeColor" />
+                <property name="标题" code="LabelText">地址</property>
+                <property name="标签对齐方式" code="LabelTextAlign">Left</property>
+                <property name="显示标题" code="LabelVisible">True</property>
+                <property name="标签宽度" code="LabelWidth">94</property>
+                <property name="左边距" code="Left">77</property>
+                <property name="百分比高度" code="PercentHeight">7%</property>
+                <property name="百分比宽度" code="PercentWidth">63.9%</property>
+                <property name="只读" code="ReadOnly">false</property>
+                <property name="界面顺序号" code="TabIndex">0</property>
+                <property name="备注" code="TagData" />
+                <property name="文本长度" code="TextLength">255</property>
+                <property name="浮动提示" code="ToolTip" />
+                <property name="上边距" code="Top">254</property>
+                <property name="值背景色" code="ValueBackColor" />
+                <property name="值字体" code="ValueFontStyle" />
+                <property name="值前景色" code="ValueForeColor" />
+                <property name="值格式规范" code="ValueFormat" />
+                <property name="值对齐方式" code="ValueTextAlign">Left</property>
+                <property name="显示" code="Visible">True</property>
+                <property name="宽度" code="Width">235</property>
+              </propertys>
+              <controls />
+              <events>
+                <event code="OnValueChanged" name="值改变事件">
+                  <evaluateRule />
+                </event>
+                <event code="OnValueLoaded" name="值加载事件">
+                  <evaluateRule />
+                </event>
+                <event code="OnLabelClick" name="单击标题">
+                  <evaluateRule />
+                </event>
+                <event code="OnKeyDown" name="键盘按下">
+                  <evaluateRule />
+                </event>
+                <event code="OnEnter" name="获取焦点">
+                  <evaluateRule />
+                </event>
+                <event code="OnLeave" name="失去焦点">
+                  <evaluateRule />
+                </event>
+              </events>
+              <dataBindings>
+                <dataBinding>
+                  <dataSource>userinfo</dataSource>
+                  <dataMembers>
+                    <dataMember name="字段名称" code="ColumnName">address</dataMember>
+                  </dataMembers>
+                </dataBinding>
+              </dataBindings>
+            </control>
+          </controls>
+          <events />
+          <dataBindings>
+            <dataBinding>
+              <dataMembers />
+            </dataBinding>
+          </dataBindings>
+        </control>
+      </controls>
+      <events>
+        <event code="FormLoadAction" name="窗体加载事件">
+          <evaluateRule code="test01.form3.form3_FormLoadAction" />
+        </event>
+        <event code="FormCloseAction" name="窗体关闭事件">
+          <evaluateRule />
+        </event>
+      </events>
+      <logics>
+        <logic type="client">
+          <ruleSets>
+            <ruleSet code="JGButton1_OnClick" name="JGButton1_单击事件">
+              <ruleRoute xsi:type="xsd:string">&lt;evaluateRule code="BRCode1" /&gt;&lt;evaluateRule code="BRCode2" /&gt;&lt;evaluateRule code="BRCode3" /&gt;</ruleRoute>
+              <ruleInstances>
+                <ruleInstance ruleCode="UpdateRecord" ruleName="保存界面实体到数据库" instanceCode="BRCode1" instanceName="保存界面实体到数据库" isNeedLog="False" isEnabled="True" transactionType="transaction">
+                  <condition />
+                  <ruleConfig>{"dataSourceMap":[{"dataMap":[{"colName":"userinfo.id","colValue":"userinfo.id","valueType":"entityField"},{"colName":"userinfo.nickname","colValue":"userinfo.nickname","valueType":"entityField"},{"colName":"userinfo.passwd","colValue":"userinfo.passwd","valueType":"entityField"},{"colName":"userinfo.sex","colValue":"userinfo.sex","valueType":"entityField"},{"colName":"userinfo.birthday","colValue":"userinfo.birthday","valueType":"entityField"},{"colName":"userinfo.address","colValue":"userinfo.address","valueType":"entityField"}],"dataSource":"userinfo","dataSourceType":"window","destTab":"userinfo","isSaveAll":false}],"treeStruct":null}</ruleConfig>
+                </ruleInstance>
+                <ruleInstance ruleCode="ShowMessage" ruleName="显示设置的提示信息" instanceCode="BRCode2" instanceName="显示设置的提示信息" isNeedLog="False" isEnabled="True" transactionType="none">
+                  <condition />
+                  <ruleConfig>{"showType":"0","simpleChinesePrompt":{"msgnote":"\"恭喜,注册成功！\"","type":"1"}}</ruleConfig>
+                </ruleInstance>
+                <ruleInstance ruleCode="AddTableRecord" ruleName="新增界面实体记录" instanceCode="BRCode3" instanceName="新增界面实体记录" isNeedLog="False" isEnabled="True" transactionType="none">
+                  <condition />
+                  <ruleConfig>{"AddLocation":"3","Mappings":null,"TableType":"window","TableName":"userinfo","NumCount":"1"}</ruleConfig>
+                </ruleInstance>
+              </ruleInstances>
+              <routeContext />
+              <inputs />
+              <outputs />
+            </ruleSet>
+          </ruleSets>
+          <ruleInstances>
+            <ruleInstance ruleCode="ExecuteRuleSet" ruleName="执行方法" instanceCode="test01.form3.JGButton1_OnClick" instanceName="执行方法" isNeedLog="false" isEnabled="true" transactionType="none">
+              <condition />
+              <ruleConfig>{"filter": null,"invokeTarget": {"sourceType": "client-ruleSet","invokeType": "local","componentCode": "test01","windowCode": "form3","ruleSetCode": "JGButton1_OnClick"},"invokeParams": null,"returnMapping": null}</ruleConfig>
+            </ruleInstance>
+          </ruleInstances>
+        </logic>
+      </logics>
+      <entitys>
+        <entity code="userinfo" name="userinfo" chineseName="userinfo">
+          <entityFields>
+            <entityField code="id" name="id" chineseName="" type="char" length="64" precision="" defaultValue="">
+              <expression />
+            </entityField>
+            <entityField code="nickname" name="nickname" chineseName="" type="char" length="255" precision="" defaultValue="">
+              <expression />
+            </entityField>
+            <entityField code="passwd" name="passwd" chineseName="" type="char" length="255" precision="" defaultValue="">
+              <expression />
+            </entityField>
+            <entityField code="sex" name="sex" chineseName="" type="char" length="255" precision="" defaultValue="">
+              <expression />
+            </entityField>
+            <entityField code="birthday" name="birthday" chineseName="" type="char" length="255" precision="" defaultValue="">
+              <expression />
+            </entityField>
+            <entityField code="address" name="address" chineseName="" type="char" length="255" precision="" defaultValue="">
+              <expression />
+            </entityField>
+          </entityFields>
+          <events>
+            <event code="OnLoaded" name="实体加载事件" />
+          </events>
+        </entity>
+      </entitys>
+      <dataBindings>
+        <dataBinding>
+          <dataSource />
+        </dataBinding>
+      </dataBindings>
+      <windowVariants>
+        <variables />
+        <dataTypes />
+      </windowVariants>
+      <windowOutputs>
+        <variables />
+        <dataTypes />
+      </windowOutputs>
+      <expressions>
+        <expression content="&quot;恭喜,注册成功！&quot;" type="client" />
+      </expressions>
+    </window>
+  </windows>
+  <logics />
+  <models>
+    <model name="userinfo" isDeleted="false" code="Table26211125" desc="" chineseName="userinfo">
+      <fields>
+        <field type="char" precision="0" fieldName="id" length="64" code="Column_id" desc="" defaultvalue="" name="" />
+        <field type="char" precision="0" fieldName="nickname" length="255" code="Column_1" desc="" defaultvalue="" name="" />
+        <field type="char" precision="0" fieldName="passwd" length="255" code="Column_2" desc="" defaultvalue="" name="" />
+        <field type="char" precision="0" fieldName="sex" length="255" code="Column_3" desc="" defaultvalue="" name="" />
+        <field type="char" precision="0" fieldName="birthday" length="255" code="Column_4" desc="" defaultvalue="" name="" />
+        <field type="char" precision="0" fieldName="address" length="255" code="Column_5" desc="" defaultvalue="" name="" />
+      </fields>
+      <indexes>
+        <index name="PK_1037617469" isUnique="false" isPrimaryKey="true">
+          <indexFields>
+            <indexField isAsc="true" indexOrder="0" fieldName="id" />
+          </indexFields>
+        </index>
+      </indexes>
+      <records replace="true" />
+    </model>
+  </models>
+  <variants />
+  <options />
+  <querys />
+  <resourcePackages />
+  <expressions />
+  <metaInfos>
+    <metaInfo type="model">
+      <modelMetas />
+    </metaInfo>
+  </metaInfos>
+  <menuItems />
+  <resources />
+  <manifest>
+    <bundle-info>
+      <symbolic-name>test01</symbolic-name>
+      <bundle-name>HelloWorld</bundle-name>
+      <bundle-version>1.0.0.Alpha</bundle-version>
+      <bundle-type>RuntimeSchema</bundle-type>
+      <provider>Coande</provider>
+      <description />
+      <lastModified>1458184363000</lastModified>
+    </bundle-info>
+    <interface>
+      <apis />
+      <spis />
+    </interface>
+    <dependencies />
+    <imports>
+      <import componentCode="com.toone.v3.platform-widget-smartclient-JGTextBox" componentName="文本" />
+      <import componentCode="com.toone.v3.platform-widget-smartclient-JGLabel" componentName="标签" />
+      <import componentCode="com.toone.v3.platform-widget-smartclient-JGButton" componentName="按钮" />
+      <import componentCode="com.toone.v3.platform-widget-smartclient-JGPanel" componentName="面板" />
+      <import componentCode="com.toone.v3.platform-widget-smartclient-JGRadioGroup" componentName="单选组" />
+      <import componentCode="com.toone.v3.platform-Webrule_AddTableRecord" componentName="新增界面实体记录" />
+      <import componentCode="com.toone.v3.platform-Webrule_ShowMessage" componentName="显示设置的提示信息" />
+      <import componentCode="com.toone.v3.platform-Webrule_UpdateRecord" componentName="保存界面实体到数据库" />
+    </imports>
+  </manifest>
+</component>]]></LastDeployData>
+</Deploy>

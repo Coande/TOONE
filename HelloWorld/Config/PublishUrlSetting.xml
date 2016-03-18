@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfPublishUrlInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PublishUrlInfo>
+    <ID>fd64aaff-4335-4690-9e85-92998181a0b5</ID>
+    <Name>TestService</Name>
+    <Url />
+    <ProductName>HelloWorld</ProductName>
+    <UrlDeployType>Normal</UrlDeployType>
+    <IsDefault>true</IsDefault>
+    <IsLocal>true</IsLocal>
+  </PublishUrlInfo>
+  <PublishUrlInfo>
+    <ID>8268bd08-1f1c-45aa-a19c-14e3cc541b1e</ID>
+    <Name>VStore</Name>
+    <Url>http://www.toone.com.cn:8808/</Url>
+    <ProductName>HelloWorld</ProductName>
+    <UrlDeployType>ToDesignPart</UrlDeployType>
+    <IsDefault>true</IsDefault>
+    <IsLocal>false</IsLocal>
+  </PublishUrlInfo>
+</ArrayOfPublishUrlInfo>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Created: 2016/3/18 0:30:43-->
+<Methods>
+  <Method Code="JGButton1_OnClick" Type="Client" InterfaceType="Local" RestrictType="Private">
+    <MethodChain><![CDATA[
+  <evaluateRule code="BRCode1" />
+]]></MethodChain>
+    <RuleInstances>
+      <RuleInstance ruleCode="OpenComponentReturnData" ruleName="打开窗体并返回数据" instanceCode="BRCode1" instanceName="打开窗体并返回数据" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"openType":"appoint","windowCode":"form1","windowName":"window01","languageType":"","languageCode":"","windowNumSource":"","targetContainerType":"newWindow","browerWindowTitle":"\"新增\"","browerWindowFlag":"","windowContainer":"","inputParams":null,"returnMapping":null}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtMaster><OpenType>appoint</OpenType><WindowCode>#W(form1)#</WindowCode><WindowName>window01</WindowName><TargetContainerType>newWindow</TargetContainerType><BrowerWindowTitle>"新增"</BrowerWindowTitle><IsChooseLanguage>False</IsChooseLanguage></dtMaster></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+    </RuleInstances>
+  </Method>
+  <Method Code="form2_FormLoadAction" Type="Client" InterfaceType="Local" RestrictType="Private">
+    <MethodChain><![CDATA[
+  <evaluateRule code="BRCode1" />
+]]></MethodChain>
+    <RuleInstances>
+      <RuleInstance ruleCode="DataBaseDataToInterfaceEntity" ruleName="从数据库获取数据到界面实体" instanceCode="BRCode1" instanceName="从数据库获取数据到界面实体" isNeedLog="False" isEnabled="True">
+        <Remark><![CDATA[]]></Remark>
+        <Condition><![CDATA[]]></Condition>
+        <RuleConfig><![CDATA[{"isAsyn":false,"itemsConfig":[{"Istype":"Table","dsWhere":null,"entityType":"window","entityName":"a001","itemqueryparam":null,"items":[{"destName":"a001.id","sourceName":"a001.id","type":"entityField"},{"destName":"a001.nickname","sourceName":"a001.nickname","type":"entityField"},{"destName":"a001.pwd","sourceName":"a001.pwd","type":"entityField"},{"destName":"a001.sex","sourceName":"a001.sex","type":"entityField"},{"destName":"a001.birthday","sourceName":"a001.birthday","type":"entityField"},{"destName":"a001.address","sourceName":"a001.address","type":"entityField"}],"orderBy":null,"sourceName":"a001","dataLoad":""}],"treeStruct":null}]]></RuleConfig>
+        <XmlRuleConfig><![CDATA[<dsConfig><dtEntityRelation><EntityType>window</EntityType><EntityName>#E(a001)#</EntityName><SourceType>Table</SourceType><SourceName>#T(a001)#</SourceName><dsWhere><![CDATA[<NewDataSet />]]]]><![CDATA[></dsWhere><dsSort><![CDATA[<dsSort />]]]]><![CDATA[></dsSort><ID>481729436a834c5f85095e5678c25210</ID><DataLoad /></dtEntityRelation><dtEntityColumnRelation><MasterID>481729436a834c5f85095e5678c25210</MasterID><DestName>#EF(a001.id)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a001.id)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>481729436a834c5f85095e5678c25210</MasterID><DestName>#EF(a001.nickname)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a001.nickname)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>481729436a834c5f85095e5678c25210</MasterID><DestName>#EF(a001.pwd)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a001.pwd)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>481729436a834c5f85095e5678c25210</MasterID><DestName>#EF(a001.sex)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a001.sex)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>481729436a834c5f85095e5678c25210</MasterID><DestName>#EF(a001.birthday)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a001.birthday)#</SourceName></dtEntityColumnRelation><dtEntityColumnRelation><MasterID>481729436a834c5f85095e5678c25210</MasterID><DestName>#EF(a001.address)#</DestName><SourceType>entityField</SourceType><SourceName>#TF(a001.address)#</SourceName></dtEntityColumnRelation><dtIsAsyn><isAsyn>False</isAsyn></dtIsAsyn></dsConfig>]]></XmlRuleConfig>
+      </RuleInstance>
+    </RuleInstances>
+  </Method>
+</Methods>

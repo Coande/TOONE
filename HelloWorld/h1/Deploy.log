@@ -1,0 +1,87 @@
+<Deploy>
+  <LastDeployTime>2016-03-11 23:23:16</LastDeployTime>
+  <LastDeployData><![CDATA[<?xml version="1.0"?>
+<component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" code="h1" name="h1" desc="">
+  <windows>
+    <window type="1" code="form1" name="test" desc="">
+      <propertys>
+        <property name="Width" code="Width">960</property>
+        <property name="Height" code="Height">450</property>
+        <property name="HeightSet" code="HeightSet">StaticHeight</property>
+        <property name="LayoutType" code="LayoutType">None</property>
+        <property name="BackColor" code="BackColor">255, 255, 255</property>
+        <property name="Padding" code="Padding">0, 0, 0, 0</property>
+        <property name="Name" code="Name">test</property>
+        <property name="Code" code="Code">form1</property>
+      </propertys>
+      <controls />
+      <events>
+        <event code="FormLoadAction" name="窗体加载事件">
+          <evaluateRule />
+        </event>
+        <event code="FormCloseAction" name="窗体关闭事件">
+          <evaluateRule />
+        </event>
+      </events>
+      <logics>
+        <logic type="client">
+          <ruleSets>
+            <ruleSet code="JGLabel1_OnClick" name="JGLabel1_单击事件">
+              <ruleRoute xsi:type="xsd:string">&lt;Root /&gt;</ruleRoute>
+              <ruleInstances />
+              <routeContext />
+              <inputs />
+              <outputs />
+            </ruleSet>
+          </ruleSets>
+        </logic>
+      </logics>
+      <dataBindings>
+        <dataBinding>
+          <dataSource />
+        </dataBinding>
+      </dataBindings>
+      <windowVariants>
+        <variables />
+        <dataTypes />
+      </windowVariants>
+      <windowOutputs>
+        <variables />
+        <dataTypes />
+      </windowOutputs>
+      <expressions />
+    </window>
+  </windows>
+  <logics />
+  <models />
+  <variants />
+  <options />
+  <querys />
+  <resourcePackages />
+  <expressions />
+  <metaInfos>
+    <metaInfo type="model">
+      <modelMetas />
+    </metaInfo>
+  </metaInfos>
+  <menuItems />
+  <resources />
+  <manifest>
+    <bundle-info>
+      <symbolic-name>h1</symbolic-name>
+      <bundle-name>h1</bundle-name>
+      <bundle-version>1.0.0</bundle-version>
+      <bundle-type>RuntimeSchema</bundle-type>
+      <provider />
+      <description />
+      <lastModified>1457709793000</lastModified>
+    </bundle-info>
+    <interface>
+      <apis />
+      <spis />
+    </interface>
+    <dependencies />
+    <imports />
+  </manifest>
+</component>]]></LastDeployData>
+</Deploy>
